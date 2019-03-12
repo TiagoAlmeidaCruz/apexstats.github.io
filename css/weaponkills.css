@@ -1,0 +1,45 @@
+.section {
+    border: 1px solid grey;
+    overflow: hidden;
+    height: 342.2px;
+    width: 310px;
+    background-color: black;
+}
+
+body{
+	transform: scale(0.75);
+        position: absolute;
+	right: 0;
+	top:0;
+}
+
+iframe {
+    margin-top: -830px;
+    margin-left: -753px;
+    height: 1920px;
+    width: 1080px;
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 3s ease-in-out;
+-moz-animation: fadeIn 3s ease-in-out;
+-o-animation: fadeIn 3s ease-in-out;
+animation: fadeIn 3s ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
